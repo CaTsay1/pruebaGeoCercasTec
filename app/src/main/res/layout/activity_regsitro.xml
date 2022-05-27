@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context=".Login.RegsitroActivity">
+
+
+    <ImageView
+        android:id="@+id/Foto_de_Portada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/fonfo_2_map"
+        android:scaleType="centerCrop"
+        android:alpha="0.8"
+        app:layout_collapseMode="parallax"
+        android:transitionName="@string/transitionname_picture" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="Registro"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Nombre_Registro"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/snape_txt"
+            android:hint="Nombre"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Correo_Registro"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/snape_txt"
+            android:hint="Correo"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Contraseña_Registro"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/snape_txt"
+            android:hint="Contraseña"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Confirmar_Contraseña_Registro"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/snape_txt"
+            android:hint="Confirmar Contraseña"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:textColorHint="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_Registrar"
+            android:layout_width="match_parent"
+            android:text="REGISTRAR"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:background="@drawable/selector_btn_entrar"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

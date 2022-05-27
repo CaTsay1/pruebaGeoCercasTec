@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "989590616927",
+    "project_id": "chat-a68fd",
+    "storage_bucket": "chat-a68fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989590616927:android:a4dccc0b0284c69e9554ea",
+        "android_client_info": {
+          "package_name": "app.prueba.pruebageotec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989590616927-sft8t5iejk3clhfiki1lp32acbrh1i1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7hLwOeMGOF-qIe32aWh-J3nX0ox7LMOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989590616927-sft8t5iejk3clhfiki1lp32acbrh1i1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989590616927:android:8a678d984cf5b1f39554ea",
+        "android_client_info": {
+          "package_name": "com.example.probar_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989590616927-sft8t5iejk3clhfiki1lp32acbrh1i1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7hLwOeMGOF-qIe32aWh-J3nX0ox7LMOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989590616927-sft8t5iejk3clhfiki1lp32acbrh1i1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

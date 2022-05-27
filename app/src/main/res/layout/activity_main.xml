@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_baseline_not_listed_location_white"
+        android:layout_marginRight="140dp"
+        android:backgroundTint="@color/colorBlue"/>/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_baseline_cleaning_white"
+        android:backgroundTint="@color/colorOrange"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_baseline_exit_white"
+        android:layout_marginLeft="140dp"
+        android:backgroundTint="@color/colorPink"/>/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
